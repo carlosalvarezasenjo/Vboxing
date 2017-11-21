@@ -1,0 +1,21 @@
+
+## List NAT
+
+$ VBoxManage list natnetworks
+
+NetworkName:    NatNetwork
+IP:             10.0.2.1
+Network:        10.0.2.0/24
+IPv6 Enabled:   No
+IPv6 Prefix:
+DHCP Enabled:   Yes
+Enabled:        Yes
+Port-forwarding (ipv4)
+        Rule 1:tcp:[10.23.51.68]:2204:[10.0.2.4]:22
+        Rule 2:tcp:[10.23.51.68]:2205:[10.0.2.5]:22
+        Rule 3:tcp:[10.23.51.68]:2206:[10.0.2.15]:22
+loopback mappings (ipv4)
+        127.0.0.1=2
+
+
+$ 
